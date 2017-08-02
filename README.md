@@ -40,33 +40,48 @@
 
 <p>The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files (including this description) as a <a href="search.zip">zip archive</a>.
 
-<table>
+<table border="0" cellpadding="10">
   <tr><td colspan="2"><b>Files you'll edit:</b></td></tr>
+
   <tr><td><code><a href="docs/search.html">search.py</a></code></td>
   <td>Where all of your search algorithms will reside.</td></tr>
+
   <tr><td><code><a href="docs/searchAgents.html">searchAgents.py</a></code></td>
   <td>Where all of your search-based agents will reside.</td></tr>
+
+
   <tr><td colspan="2"><b>Files you might want to look at:</b></td></tr>
+
   <tr><td><code><a href="docs/pacman.html">pacman.py</a></code></td>
   <td>The main file that runs Pacman games.  This file describes a Pacman GameState type, which you use in this project.</td></tr>
+
   <tr><td><code><a href="docs/game.html">game.py</a></code></td>
-  <td>The logic behind how the Pac<table border="0" cellpadding="10">
-man world works.  This file describes several supporting types like AgentState, Agent, Direction, and Grid.</td></tr>
+  <td>The logic behind how the Pacman world works.  This file describes several supporting types like AgentState, Agent, Direction, and Grid.</td></tr>
+
   <tr><td><code><a href="docs/util.html">util.py</a></code></td>
   <td>Useful data structures for implementing search algorithms.</td></tr>
+
+
   <tr><td colspan="2"><b>Supporting files you can ignore:</b></td></tr>
+
   <tr><td><code><a href="docs/graphicsDisplay.html">graphicsDisplay.py</a></code></td>
   <td>Graphics for Pacman</td></tr>
+
     <tr><td><code><a href="docs/graphicsUtils.html">graphicsUtils.py</a></code></td>
   <td>Support for Pacman graphics</td></tr>
+
   <tr><td><code><a href="docs/textDisplay.html">textDisplay.py</a></code></td>
   <td>ASCII graphics for Pacman</td></tr>
+
     <tr><td><code><a href="docs/ghostAgents.html">ghostAgents.py</a></code></td>
   <td>Agents to control ghosts</td></tr>
+
     <tr><td><code><a href="docs/keyboardAgents.html">keyboardAgents.py</a></code></td>
   <td>Keyboard interfaces to control Pacman</td></tr>
+
     <tr><td><code><a href="docs/layout.html">layout.py</a></code></td>
   <td>Code for reading layout files and storing their contents</td></tr>
+
 </table>
 
 
