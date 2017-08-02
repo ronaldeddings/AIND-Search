@@ -69,6 +69,7 @@ man world works.  This file describes several supporting types like AgentState, 
   <td>Code for reading layout files and storing their contents</td></tr>
 </table>
 
+
 <p>
 <p><strong>What to submit:</strong> You will fill in portions of <code><a href="docs/search.html">search.py</a></code> and <code><a href="docs/searchAgents.html">searchAgents.py</a></code> during the assignment.  You should submit these two files (only) along with a <code>partners.txt</code> file.  Type <code>submit p1</code> to submit your code.  Here are <a href="../../submission_instructions.html">directions for submitting</a> and setting up your account.  </p>
 
