@@ -1,7 +1,5 @@
 <span class="Red">**NOTE: Original Link for this project can be found here: https://inst.eecs.berkeley.edu/~cs188/fa10/projects/search/search.html</span>
 
-<span class="Red">**NOTE: The comments of search.py and searchAgents.py were edited on 9/13/10 to resolve some inconsistencies between this page and the code, and to fix some textbook page numbers. YOU NEED NOT download everything again, unless some bugs in the comments bother you.**</span>
-
 ## Lab: Search in Pacman
 
 > <center>![](maze.png)</center>
