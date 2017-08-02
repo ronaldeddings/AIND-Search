@@ -18,10 +18,10 @@
 <body>
 
 <p><span class="Red">
-<strong>NOTE: The comments of search.py and searchAgents.py were edited on 9/13/10 to resolve some inconsistencies between this page and the code, and to fix some textbook page numbers. YOU NEED NOT download everything again, unless some bugs in the comments bother you.</strong></span><br>
+<strong>NOTE: Original link to lab can be found here: https://inst.eecs.berkeley.edu/~cs188/fa10/projects/search/search.html</strong></span><br>
 </p>
 
-<h2>Project 1: Search in Pacman</h2>
+<h2>Lab: Search in Pacman</h2>
 
 <!--announcements-->
 
@@ -63,6 +63,24 @@ man world works.  This file describes several supporting types like AgentState, 
   
 
   <tr><td colspan="2"><b>Supporting files you can ignore:</b></td></tr>
+
+  <tr><td><code><a href="docs/graphicsDisplay.html">graphicsDisplay.py</a></code></td>
+  <td>Graphics for Pacman</td></tr>
+
+    <tr><td><code><a href="docs/graphicsUtils.html">graphicsUtils.py</a></code></td>
+  <td>Support for Pacman graphics</td></tr>
+
+  <tr><td><code><a href="docs/textDisplay.html">textDisplay.py</a></code></td>
+  <td>ASCII graphics for Pacman</td></tr>
+
+    <tr><td><code><a href="docs/ghostAgents.html">ghostAgents.py</a></code></td>
+  <td>Agents to control ghosts</td></tr>
+
+    <tr><td><code><a href="docs/keyboardAgents.html">keyboardAgents.py</a></code></td>
+  <td>Keyboard interfaces to control Pacman</td></tr>
+
+    <tr><td><code><a href="docs/layout.html">layout.py</a></code></td>
+  <td>Code for reading layout files and storing their contents</td></tr>
 
 </table>
 <p>
