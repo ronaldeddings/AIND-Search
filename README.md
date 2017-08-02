@@ -40,6 +40,8 @@
 
 <p>The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files (including this description) as a <a href="search.zip">zip archive</a>.
 
+</table>
+
   <tr><td colspan="2"><b>Files you'll edit:</b></td></tr>
   
   <tr><td><code><a href="docs/search.html">search.py</a></code></td>
