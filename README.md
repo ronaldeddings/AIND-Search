@@ -2,7 +2,7 @@
 
 ## Lab: Search in Pacman
 
-> [Example game](maze.png)
+> ![Example game](maze.png)
 >
 > <center>All those colored walls,
 > Mazes give Pacman the blues,
@@ -26,7 +26,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>[search.py](docs/search.html)</td>
+<td>[search.py](./docs/search.html)</td>
 
 <td>Where all of your search algorithms will reside.</td>
 
