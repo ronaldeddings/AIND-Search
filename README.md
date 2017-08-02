@@ -2,7 +2,7 @@
 
 ## Lab: Search in Pacman
 
-> <center>![](maze.png)</center>
+> [Example game](maze.png)
 >
 > <center>All those colored walls,
 > Mazes give Pacman the blues,
@@ -26,7 +26,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[search.py](docs/search.html)`</td>
+<td>[search.py](docs/search.html)</td>
 
 <td>Where all of your search algorithms will reside.</td>
 
@@ -34,7 +34,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[searchAgents.py](docs/searchAgents.html)`</td>
+<td>[searchAgents.py](docs/searchAgents.html)</td>
 
 <td>Where all of your search-based agents will reside.</td>
 
@@ -48,7 +48,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[pacman.py](docs/pacman.html)`</td>
+<td>[pacman.py](docs/pacman.html)</td>
 
 <td>The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.</td>
 
@@ -56,7 +56,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[game.py](docs/game.html)`</td>
+<td>[game.py](docs/game.html)</td>
 
 <td>The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid.</td>
 
@@ -64,7 +64,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[util.py](docs/util.html)`</td>
+<td>[util.py](docs/util.html)</td>
 
 <td>Useful data structures for implementing search algorithms.</td>
 
@@ -78,7 +78,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[graphicsDisplay.py](docs/graphicsDisplay.html)`</td>
+<td>[graphicsDisplay.py](docs/graphicsDisplay.html)</td>
 
 <td>Graphics for Pacman</td>
 
@@ -86,7 +86,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[graphicsUtils.py](docs/graphicsUtils.html)`</td>
+<td>[graphicsUtils.py](docs/graphicsUtils.html)</td>
 
 <td>Support for Pacman graphics</td>
 
@@ -94,7 +94,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[textDisplay.py](docs/textDisplay.html)`</td>
+<td>[textDisplay.py](docs/textDisplay.html)</td>
 
 <td>ASCII graphics for Pacman</td>
 
@@ -102,7 +102,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[ghostAgents.py](docs/ghostAgents.html)`</td>
+<td>[ghostAgents.py](docs/ghostAgents.html)</td>
 
 <td>Agents to control ghosts</td>
 
@@ -110,7 +110,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[keyboardAgents.py](docs/keyboardAgents.html)`</td>
+<td>[keyboardAgents.py](docs/keyboardAgents.html)</td>
 
 <td>Keyboard interfaces to control Pacman</td>
 
@@ -118,7 +118,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <tr>
 
-<td>`[layout.py](docs/layout.html)`</td>
+<td>[layout.py](docs/layout.html)</td>
 
 <td>Code for reading layout files and storing their contents</td>
 
@@ -350,28 +350,28 @@ Here's a glossary of the key objects in the code base related to search problems
 
 <dl>
 
-<dt>`SearchProblem (search.py)`</dt>
+<dt>SearchProblem (search.py)</dt>
 
-<dd>A SearchProblem is an abstract object that represents the state space, successor function, costs, and goal state of a problem. You will interact with any SearchProblem only through the methods defined at the top of `[search.py](docs/search.html)`</dd>
+<dd>A SearchProblem is an abstract object that represents the state space, successor function, costs, and goal state of a problem. You will interact with any SearchProblem only through the methods defined at the top of [search.py](docs/search.html)</dd>
 
-<dt>`PositionSearchProblem (searchAgents.py)`</dt>
+<dt>PositionSearchProblem (searchAgents.py)</dt>
 
 <dd>A specific type of SearchProblem that you will be working with --- it corresponds to searching for a single pellet in a maze.</dd>
 
-<dt>`CornersProblem (searchAgents.py)`</dt>
+<dt>CornersProblem (searchAgents.py)</dt>
 
 <dd>A specific type of SearchProblem that you will define --- it corresponds to searching for a path through all four corners of a maze.</dd>
 
-<dt>`FoodSearchProblem (searchAgents.py)`</dt>
+<dt>FoodSearchProblem (searchAgents.py)</dt>
 
 <dd>A specific type of SearchProblem that you will be working with --- it corresponds to searching for a way to eat all the pellets in a maze.</dd>
 
 <dt>Search Function</dt>
 
-<dd>A search function is a function which takes an instance of SearchProblem as a parameter, runs some algorithm, and returns a sequence of actions that lead to a goal. Example of search functions are `depthFirstSearch` and `breadthFirstSearch`, which you have to write. You are provided `tinyMazeSearch` which is a very bad search function that only works correctly on `tinyMaze`</dd>
+<dd>A search function is a function which takes an instance of SearchProblem as a parameter, runs some algorithm, and returns a sequence of actions that lead to a goal. Example of search functions are depthFirstSearch and breadthFirstSearch, which you have to write. You are provided tinyMazeSearch which is a very bad search function that only works correctly on tinyMaze</dd>
 
-<dt>`SearchAgent`</dt>
+<dt>SearchAgent</dt>
 
-<dd>`SearchAgent` is a class which implements an Agent (an object that interacts with the world) and does its planning through a search function. The `SearchAgent` first uses the search function provided to make a plan of actions to take to reach the goal state, and then executes the actions one at a time.</dd>
+<dd>SearchAgent is a class which implements an Agent (an object that interacts with the world) and does its planning through a search function. The SearchAgent first uses the search function provided to make a plan of actions to take to reach the goal state, and then executes the actions one at a time.</dd>
 
 </dl>
