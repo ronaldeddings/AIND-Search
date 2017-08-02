@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.7.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'auditjs',
+1 verbose cli   '-g' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData auditjs
+8 silly fetchNamedPackageData auditjs
+9 silly mapToRegistry name auditjs
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://pixi.intel.com/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'auditjs',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'auditjs',
+12 silly mapToRegistry   name: 'auditjs',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://pixi.intel.com/auditjs
+14 verbose request uri https://pixi.intel.com/auditjs
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:14:59 PM
+17 verbose request id 503eb60a1b1ae0a0
+18 http request GET https://pixi.intel.com/auditjs
+19 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-chain.intel.com proxy-chain.intel.com:911
+20 info attempt registry request try #2 at 1:15:11 PM
+21 http request GET https://pixi.intel.com/auditjs
+22 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-chain.intel.com proxy-chain.intel.com:911
+23 info attempt registry request try #3 at 1:16:11 PM
+24 http request GET https://pixi.intel.com/auditjs
+25 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-chain.intel.com proxy-chain.intel.com:911
+25 silly fetchPackageMetaData     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+25 silly fetchPackageMetaData     at Object.onceWrapper (events.js:293:19)
+25 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+25 silly fetchPackageMetaData     at ClientRequest.emit (events.js:191:7)
+25 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:358:9)
+25 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+25 silly fetchPackageMetaData     at Socket.emit (events.js:191:7)
+25 silly fetchPackageMetaData     at connectErrorNT (net.js:1040:8)
+25 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+25 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+25 silly fetchPackageMetaData  error for auditjs { Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-chain.intel.com proxy-chain.intel.com:911
+25 silly fetchPackageMetaData     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+25 silly fetchPackageMetaData     at Object.onceWrapper (events.js:293:19)
+25 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+25 silly fetchPackageMetaData     at ClientRequest.emit (events.js:191:7)
+25 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:358:9)
+25 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+25 silly fetchPackageMetaData     at Socket.emit (events.js:191:7)
+25 silly fetchPackageMetaData     at connectErrorNT (net.js:1040:8)
+25 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+25 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+26 silly rollbackFailedOptional Starting
+27 verbose stack TypeError: Cannot read property 'path' of null
+27 verbose stack     at Installer.rollbackFailedOptional (/usr/local/lib/node_modules/npm/lib/install.js:511:29)
+27 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+27 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+27 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:337:5
+27 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+27 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+27 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+27 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:294:5
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:16:22
+28 verbose cwd /Users/reddings/Udacity AI/search
+29 error Darwin 16.7.0
+30 error argv "/usr/local/Cellar/node/7.7.2/bin/node" "/usr/local/bin/npm" "install" "auditjs" "-g"
+31 error node v7.7.2
+32 error npm  v4.1.2
+33 error Cannot read property 'path' of null
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
